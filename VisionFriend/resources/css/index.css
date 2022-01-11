@@ -1,0 +1,227 @@
+ body {
+    background-color: powderblue ;
+    /*
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    */
+    width: 960px;
+    margin: 0 auto;
+ }
+
+ .h1 .h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+ /* Topbar section  */
+
+
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width:960px;
+    background-color: whitesmoke;
+    filter: drop-shadow(10px 10px 15px rgba(0,0,0,0.8));
+    z-index: 10;
+}
+
+.navbar li {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: inline-block;
+    padding: 0px 10px;
+    background-color: whitesmoke;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: italic;
+    text-transform: uppercase;
+    background-color: whitesmoke;
+}
+
+a:hover {
+    background-color: black;
+    color: whitesmoke;
+    width: fit-content;
+    padding: 0px 0px;
+    filter: drop-shadow(5px 5px 15px rgba(0,0,0,0.5));
+}
+
+#currentpage {
+    background-color: black;
+    color: red;
+    width: fit-content;
+    padding: 0px 0px;
+    filter: drop-shadow(5px 5px 15px rgba(0,0,0,0.5));
+}
+
+
+#logo {
+    width: 250px;
+    filter: drop-shadow(1px 1px 1px black );
+}
+.banner {
+    float: left;
+    margin: 10px;
+
+}
+
+.myinfo {
+    float: left;
+    margin: 5px;
+}
+
+#myname {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    text-transform: uppercase;
+    padding-top: 30px;
+    margin-block-end: 0%;
+
+}
+#mytitle {
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-block-start: 0%;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+/* Main Section */
+
+.article {
+    padding-top: 150px;
+}
+
+.headline {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
+    font-weight: bolder;
+    color: red;
+    background-color: black;
+    text-transform: uppercase;
+    font-style: italic;
+    width: fit-content;
+    padding-left: 10%;
+    filter: drop-shadow(10px 10px 20px rgba(0,0,0,0.5));
+}
+.poster {
+    height:500px;
+    filter: drop-shadow(1px 1px 1px black );
+    float:  left;
+    margin: 10px;
+}
+
+/* second column */
+
+.section {
+    width: 60%;
+    float:  left;
+    margin: 10px;
+    overflow: auto;
+}
+
+.story {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    width: 60%;   
+    float:  left;
+    margin: 20px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.infobox {
+    background-color: black;
+    padding-left: 10%; 
+    margin: 30px;
+    width: 70%;
+    clear: left;
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.5)); 
+    /*  
+    outline: red solid 2px;
+    */
+}
+
+.infotitle {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    line-height: 20px;
+    color: red;
+    background-color: black;
+    text-transform: uppercase;
+    font-style: italic;
+    width: fit-content;
+    margin-block-end: 0%;
+    /*
+    outline: red solid 2px;
+    */
+}
+
+.infotext {
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-block-start: 2%;
+    padding-bottom: 5%;
+    /*
+    outline: red solid 2px;
+    */
+}
+
+/* Aside Section */
+
+.aside {
+    padding-top: 70%;
+}
+
+.column1of3, .column2of3, .column3of3 {
+    width: 300px;
+    float: left;
+    margin: 1%;
+}
+
+menu {
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+   
+} 
+    
+
+h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color: red;
+    background-color: black;
+    text-transform: uppercase;
+    font-style: italic;
+    width: fit-content;
+    padding: 10px 10px;
+    filter: drop-shadow(5px 5px 15px rgba(0,0,0,0.5));
+}
+
+.small-still {
+    padding: 5px;
+    width:300px;
+    filter: drop-shadow(1px 1px 1px black );
+}
+
+.footernotes {
+    
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto;
+}
+
